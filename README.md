@@ -7,6 +7,4 @@
  <h2><i>Versão DeskTop<i><h2>
 <img src="img/Design sem nome (2).png">
     
-   <h3><i>Versão Mobile<i><h3>
-     
-     <img src=>
+   

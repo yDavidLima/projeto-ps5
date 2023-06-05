@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-PS5-Responsividade</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <div id="itens-dentro">
+    <div class="header">
+        <img class="logo" src="./img/logo.png" alt="logo">
+        <nav>
+            <ul id="menu-list">
+                <li class="li-menu"><a>Consoles</a></li>
+                <li class="li-menu"><a>Acessórios</a></li>
+                <li class="li-menu"><a>Controles</a></li>
+                <li class="li-menu"><a>Outros</a></li>
+            </ul>
+        </nav>
+        <img class="botao-menu" src="./img/menu.png" alt="botao-menu" onclick="showMenu()">
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <h2>PS5 DualShock</h2>
+            <h3>Wireless Controller for PlayStation</h3>
+            <p>Controle Original</p>
+            <h4>R$ 222,50</h4>
+            <button class="buy">Comprar agora <img src="./img/arrow.png" alt="arrow"> </button>
+        </div>
+
+        <div class="right">
+            <img class="controller" src="./img/controller.png " alt="controle">
+            <div class="caixa-rosa"></div>
+            <button class="add">
+                <img src="./img/add.png" alt="adicionar">
+            </button>
+        </div>           
+    </div>
+
+        <div class="rodape">
+            <img src="./img/fb.png">
+            <img src="./img/ig.png">
+            <img src="./img/tw.png">
+        </div>
+    </div>
+
+</div>  
+</body>
+<script>
+    const menulist = document.getElementById("menu-list")
+    menulist.style.maxHeight = "0px"
+        
+    function showMenu(){
+        if(menulist.style.maxHeight == "0px"){
+            menulist.style.maxHeight = "120px"}
+            else {menulist.style.maxHeight = "0px"}
+        }
+    
+
+
+
+
+</script>
+
+
+</html>
